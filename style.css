@@ -1,16 +1,14 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body{
-    display: grid;
-    grid-auto-flow: row;
-    row-gap: 5vh;
     background-color: rgb(0, 0, 50) !important;
     color: aliceblue;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 header, footer{
@@ -19,6 +17,7 @@ header, footer{
 
 body > header{
     width: 100%;
+    max-width: 100%;
     background-color: #0000ff !important;
     color: aliceblue !important;
     text-align: center;
@@ -26,12 +25,16 @@ body > header{
     box-sizing: border-box;
 }
 body > main{
+    /* background-color: red; */
     width: 100%;
+    max-width: 100%;
     display: grid !important;
     grid-auto-flow: row;
     row-gap: 5vh !important;
     place-items: center;
     box-sizing: border-box;
+
+    margin-top: 5vh;
 }
 
 
@@ -142,13 +145,16 @@ body > main > section:nth-of-type(2) img{
 body > main > section:nth-of-type(2) figcaption{
     box-sizing: border-box;
     /* background-color: red; */
+    font-size: 1.3vw;
     overflow: auto;
     width: max-content;
     text-align: center;
+    box-sizing: border-box;
 }
 
 body > footer{
     width: 100%;
+    max-width: 100%;
     background-color: rgb(47, 0, 91);
     box-sizing: border-box;
     padding: initial 2vw;
