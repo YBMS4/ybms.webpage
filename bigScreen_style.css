@@ -1,0 +1,28 @@
+body > header{
+    font-size: 2.5em !important;
+}
+
+body > main header{
+    font-size: 2.5em !important;
+}
+
+body > main > section label{
+    font-size: 2.5em !important;
+}
+
+body > main > section input[type="text"]{
+    font-size: 2em !important;
+}
+
+body > main > section button{
+    font-size: 2.7em !important;
+    padding: 2vh 5vw !important;
+}
+
+body figcaption{
+    font-size: 2em !important;
+}
+
+body > footer{
+    font-size: 2.5em !important;
+}
