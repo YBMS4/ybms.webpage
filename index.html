@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone_style.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="bigScreen_style.css" media="screen and (min-width: 1400px)">
     <link rel="shortcut icon" href="./images/Icon.png" type="image/x-icon">
     <title>Responsive Web Page</title>
 </head>
@@ -16,14 +18,14 @@
     <main>
         <section>
             <header>
-                <h2>Forms</h2>
+                <h2>Form</h2>
             </header>
 
             <main>
-                <label for="Nom">Color name: </label>
-                <input type="text" id="Nom">
+                <label for="Nom" translate="no">Color name: </label>
+                <input type="text" id="Nom" translate="no">
 
-                <label for="Couleur">Color: </label>
+                <label for="Couleur" translate="no">Color: </label>
                 <input type="color" id="Couleur" value="#e31d3f">
             </main>
             
@@ -31,10 +33,10 @@
                 <button type="button">Submit</button>
                 <div id="ColorBox">
                     <div>
-                        <span>Color Name</span>
+                        <span translate="no">Color Name</span>
                         <div></div>
                     </div>
-                    <span>X</span>
+                    <span translate="no">X</span>
                 </div>
             </footer>
             
@@ -49,7 +51,7 @@
                 <figure title="Moratl Kombat">
                     <img src="images/MK_Origin.jpg" alt="Mortal Kombat Dragon" width="50%">
                     <figcaption>
-                        This image of Mortal Kombat is really well made Whoever made this, if he one day get the chance to see this caption
+                        This image of Mortal Kombat is really well made, Whoever made this, if he one day get the chance to see this caption
                         need to know that <br> It's <span>BEAUTIFUL</span>
                     </figcaption>
                 </figure>
