@@ -17,7 +17,7 @@ header, footer{
 
 body > header{
     width: 100%;
-    max-width: 100%;
+    max-width: 100vw;
     background-color: #0000ff !important;
     color: aliceblue !important;
     text-align: center;
@@ -27,7 +27,7 @@ body > header{
 body > main{
     /* background-color: red; */
     width: 100%;
-    max-width: 100%;
+    max-width: 100vw;
     display: grid !important;
     grid-auto-flow: row;
     row-gap: 5vh !important;
@@ -154,7 +154,7 @@ body > main > section:nth-of-type(2) figcaption{
 
 body > footer{
     width: 100%;
-    max-width: 100%;
+    max-width: 100vw;
     background-color: rgb(47, 0, 91);
     box-sizing: border-box;
     padding: initial 2vw;
